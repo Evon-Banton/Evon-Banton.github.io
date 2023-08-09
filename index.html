@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+<script>
+function buttonTest() {
+	alert("you hit the button you made the alert on the github page");
+	document.getElementById("testP").innerHTML = "This button defo worked";
+}
+</script>
+
+</head>
+
+
 <body>
 
 <h1>Hola, we testing over here</h1>
 
 <p>this should be on github pages?</p>
+
+<button type="button" onclick="buttonTest()"> do it </button>
+
+<p id ="testP"></p>
 
 </body>
 </html>
